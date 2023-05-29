@@ -18,7 +18,9 @@ public class MainActivity extends AppCompatActivity {
     public void msgView(View view) {
         EditText myText = (EditText) findViewById(R.id.txtView_1);
         String firstName = myText.getText().toString();
+
         Intent intent = new Intent(this, MsgActivity.class);
+
         intent.putExtra("FIRSTNAME", firstName);
         startActivity(intent);
     }

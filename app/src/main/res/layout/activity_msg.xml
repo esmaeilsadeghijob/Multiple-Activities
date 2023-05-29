@@ -6,13 +6,59 @@
     android:layout_height="match_parent"
     tools:context=".MsgActivity">
 
+<!--    <TextView-->
+<!--        android:id="@+id/txtView_2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView"-->
+<!--        android:textSize="30dp"-->
+<!--        tools:layout_editor_absoluteX="154dp"-->
+<!--        tools:layout_editor_absoluteY="151dp" />-->
+
+<!--    <WebView-->
+<!--        android:id="@+id/web"-->
+<!--        android:layout_width="408dp"-->
+<!--        android:layout_height="401dp"-->
+<!--        tools:layout_editor_absoluteX="0dp"-->
+<!--        tools:layout_editor_absoluteY="202dp" />-->
+
+    <!--    <ListView-->
+<!--        android:id="@+id/list_view"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="239dp"-->
+<!--        tools:layout_editor_absoluteX="1dp"-->
+<!--        tools:layout_editor_absoluteY="1dp" />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/esmaeil"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="270dp" />
+
     <TextView
-        android:id="@+id/txtView_2"
+        android:id="@+id/txtView_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        android:textSize="30dp"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="151dp" />
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="363dp" />
+
+    <TextView
+        android:id="@+id/txtView_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/txtView_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="458dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
